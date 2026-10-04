@@ -1,0 +1,23 @@
+{
+  "source": "https://saastop.vercel.app",
+  "pages": [
+    "/",
+    "/produtos",
+    "/institucional/privacidade",
+    "/institucional/termos",
+    "/institucional/trocas",
+    "/produtos/blusa-personalizada",
+    "/produtos/caderno-personalizado",
+    "/produtos/caneca-personalizada",
+    "/produtos/chaveiro-personalizado",
+    "/produtos/copo-de-vidro-personalizado",
+    "/produtos/garrafa-personalizada",
+    "/produtos/lixa-personalizada",
+    "/produtos/sacola-personalizada"
+  ],
+  "assets": 31,
+  "failures": [],
+  "source_limitations": [
+    "The source /video.mp4 returns HTML instead of video."
+  ]
+}

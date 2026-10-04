@@ -1,0 +1,4 @@
+[hidden]{display:none!important}
+.replica-mobile-nav{display:grid;gap:0;padding:12px 24px;background:var(--paper,#fff)}
+.replica-mobile-nav a{padding:12px 0;border-bottom:1px solid #ede2d3}
+#catalog-empty{padding:36px 0;text-align:center}
