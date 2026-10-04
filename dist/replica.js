@@ -62,4 +62,27 @@
     decrease.addEventListener('click',()=>{quantity.value=Number(quantity.value)-1;update();});increase.addEventListener('click',()=>{quantity.value=Number(quantity.value)+1;update();});quantity.addEventListener('input',update);idea.addEventListener('input',update);
     all('.photo-thumbnails button').forEach(button=>button.addEventListener('click',()=>{all('.photo-thumbnails button').forEach(b=>{b.classList.toggle('selected',b===button);b.setAttribute('aria-pressed',String(b===button));});one('.detail-photo img').src=button.querySelector('img').src;}));update();
   }
+  all(`.${home}unboxingVideo`).forEach(video => {
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    const play = () => {
+      if (video.currentTime < .2) {
+        try { video.currentTime = .35; } catch {}
+      }
+      video.play().catch(() => {});
+    };
+    video.addEventListener('loadedmetadata', play, { once: true });
+    video.addEventListener('canplay', play, { once: true });
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) play();
+        });
+      }, { threshold: .25 });
+      observer.observe(video);
+    } else {
+      play();
+    }
+  });
 })();
