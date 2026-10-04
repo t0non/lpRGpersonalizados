@@ -3,3 +3,32 @@
 .replica-mobile-nav a{padding:12px 0;border-bottom:1px solid #ede2d3}
 #catalog-empty{padding:36px 0;text-align:center}
 .Home-module__bzKCIa__bannerHero picture{display:block;width:100%}
+.Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__categoryImage{
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  overflow:visible!important;
+  width:170px!important;
+  max-width:100%!important;
+  aspect-ratio:1!important;
+}
+.Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__categoryImage img{
+  position:static!important;
+  inset:auto!important;
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+}
+.Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__category{
+  gap:10px;
+}
+@media (max-width:700px){
+  .Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__category{
+    flex-basis:118px;
+  }
+  .Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__categoryImage{
+    width:118px!important;
+  }
+}
