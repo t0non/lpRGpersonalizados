@@ -1871,3 +1871,42 @@ li.rg-step {
     display: none !important;
   }
 }
+/* ========================================= */
+/* FIX DEFINITIVO: CENTRALIZAR CATEGORIAS    */
+/* ========================================= */
+
+/* Desktop (Global) */
+.Home-module__bzKCIa__categories {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 24px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.Home-module__bzKCIa__category {
+  flex: 0 0 auto !important;
+  width: 120px !important; /* Largura fixa para desktop */
+}
+
+/* Mobile (<= 700px) */
+@media (max-width: 700px) {
+  .Home-module__bzKCIa__categories {
+    display: flex !important;
+    justify-content: flex-start !important; /* No mobile, inicia na esquerda para poder rolar */
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding-bottom: 12px !important;
+    gap: 12px !important;
+  }
+  
+  .Home-module__bzKCIa__category {
+    flex: 0 0 85px !important; /* Tamanho menor no mobile */
+    width: 85px !important;
+    scroll-snap-align: start !important;
+  }
+}
