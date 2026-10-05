@@ -5,7 +5,16 @@
   const home = 'Home-module__bzKCIa__';
   const slides = all(`.${home}bannerSlide`);
   const dots = all(`.${home}bannerDot`);
+  const announcementMessages = all('.rg-announcement-message');
   let current = 0;
+  if(announcementMessages.length>1&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    let announcementIndex=0;
+    setInterval(()=>{
+      announcementMessages[announcementIndex].classList.remove('is-active');
+      announcementIndex=(announcementIndex+1)%announcementMessages.length;
+      announcementMessages[announcementIndex].classList.add('is-active');
+    },2800);
+  }
   function showSlide(index) {
     current = index;
     slides.forEach((slide,i) => {
@@ -19,8 +28,21 @@
     dot.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();const next=(current+(e.key==='ArrowRight'?1:slides.length-1))%slides.length;showSlide(next);dots[next].focus();}});
   });
   if(slides.length>1&&!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{if(!document.hidden&&!one(`.${home}bannerHero:focus-within`))showSlide((current+1)%slides.length);},6000);
-  all('button[aria-controls="presentes-rail"]').forEach((button,i)=>{
-    const rail=one('#presentes-rail');
+  all('.rg-word-hero__word').forEach(el=>{
+    const words=(el.dataset.words||'').split(',').map(w=>w.trim()).filter(Boolean);
+    if(words.length<2||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+    let i=0;
+    setInterval(()=>{
+      i=(i+1)%words.length;
+      el.classList.add('is-changing');
+      setTimeout(()=>{el.textContent=words[i];el.classList.remove('is-changing');},220);
+    },2200);
+  });
+  all('button[aria-controls$="-rail"]').forEach((button)=>{
+    const rail=one(`#${button.getAttribute('aria-controls')}`);
+    const controls=[...document.querySelectorAll(`button[aria-controls="${button.getAttribute('aria-controls')}"]`)];
+    const i=controls.indexOf(button);
+    if(!rail)return;
     button.addEventListener('click',()=>rail.scrollBy({left:(i?1:-1)*(rail.clientWidth*.8),behavior:'smooth'}));
     const update=()=>{button.disabled=i?rail.scrollLeft+rail.clientWidth>=rail.scrollWidth-3:rail.scrollLeft<=3;};
     rail.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);update();
@@ -35,7 +57,23 @@
     }
   }));
   const searchForm=one('form[role="search"]');
-  if(searchForm)searchForm.addEventListener('submit',e=>{e.preventDefault();location.href='/produtos?q='+encodeURIComponent(searchForm.querySelector('input').value.trim());});
+  if(searchForm)searchForm.addEventListener('submit',e=>{
+    e.preventDefault();
+    const query=searchForm.querySelector('input').value.trim();
+    const text=query?`Ola! Estou procurando por ${query} no site. Podem me ajudar?`:'Ola! Quero ver opcoes de presentes personalizados. Podem me ajudar?';
+    window.open(`https://wa.me/553194181954?text=${encodeURIComponent(text)}`,'_blank','noopener');
+  });
+  all(`.${home}categories`).forEach(rail=>{
+    let dragging=false,startX=0,startScroll=0;
+    rail.addEventListener('pointerdown',e=>{
+      dragging=true;startX=e.clientX;startScroll=rail.scrollLeft;rail.setPointerCapture(e.pointerId);
+    });
+    rail.addEventListener('pointermove',e=>{
+      if(!dragging)return;
+      rail.scrollLeft=startScroll-(e.clientX-startX);
+    });
+    ['pointerup','pointercancel','pointerleave'].forEach(type=>rail.addEventListener(type,()=>{dragging=false;}));
+  });
   const grid=one('.catalog-grid');
   if(grid){
     const categories=['blusas','canecas','chaveiros','sacolas','lixas','cadernos','garrafas','vidros'];
