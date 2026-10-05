@@ -3,6 +3,163 @@
 .replica-mobile-nav a{padding:12px 0;border-bottom:1px solid #ede2d3}
 #catalog-empty{padding:36px 0;text-align:center}
 .Home-module__bzKCIa__bannerHero picture{display:block;width:100%}
+.Home-module__bzKCIa__navigation { display: none !important; }
+.Home-module__bzKCIa__sectionHeading .Home-module__bzKCIa__textLink { display: none !important; }
+.Home-module__bzKCIa__categories { justify-content: center !important; }
+.Home-module__bzKCIa__price { display: none !important; }
+.Home-module__bzKCIa__salesSection { display: none !important; }
+
+/* FAQ — layout melhorado */
+.Home-module__bzKCIa__help {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 32px !important;
+  padding: 60px 24px !important;
+  background: #faf7f4 !important;
+}
+.Home-module__bzKCIa__help h2 {
+  text-align: center !important;
+  width: 100% !important;
+  font-size: clamp(1.8rem, 3vw, 2.4rem) !important;
+  margin-bottom: 0 !important;
+  color: #2c1810 !important;
+}
+.Home-module__bzKCIa__help > div {
+  width: 100% !important;
+  max-width: 720px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+.Home-module__bzKCIa__help details {
+  background: #fff !important;
+  border: 1px solid #e8ddd6 !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  transition: box-shadow 0.2s !important;
+}
+.Home-module__bzKCIa__help details:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07) !important;
+}
+.Home-module__bzKCIa__help details[open] {
+  border-color: #c0845a !important;
+  box-shadow: 0 4px 16px rgba(192,132,90,0.12) !important;
+}
+.Home-module__bzKCIa__help summary {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 18px 24px !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  color: #2c1810 !important;
+  cursor: pointer !important;
+  list-style: none !important;
+  gap: 16px !important;
+}
+.Home-module__bzKCIa__help summary::-webkit-details-marker { display: none !important; }
+.Home-module__bzKCIa__help summary span {
+  flex-shrink: 0 !important;
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50% !important;
+  background: #f4ede7 !important;
+  color: #c0845a !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  transition: background 0.2s, transform 0.2s !important;
+}
+.Home-module__bzKCIa__help details[open] summary span {
+  background: #c0845a !important;
+  color: #fff !important;
+  transform: rotate(45deg) !important;
+}
+.Home-module__bzKCIa__help details p {
+  padding: 0 24px 20px !important;
+  font-size: 0.9rem !important;
+  color: #5a4a42 !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+  border-top: 1px solid #f0e8e0 !important;
+  padding-top: 14px !important;
+}
+
+
+/* CTA button — menor e com espaçamento */
+.Home-module__bzKCIa__productButton {
+  display: inline-flex !important;
+  width: auto !important;
+  align-self: flex-start !important;
+  padding: 9px 16px !important;
+  font-size: 0.8rem !important;
+  margin-top: 10px !important;
+  border-radius: 8px !important;
+}
+
+
+/* Center all section headings */
+.Home-module__bzKCIa__sectionHeading {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
+  position: relative !important;
+}
+.Home-module__bzKCIa__sectionHeading > div {
+  text-align: center !important;
+}
+.Home-module__bzKCIa__sectionHeading h2,
+.Home-module__bzKCIa__sectionHeading p {
+  text-align: center !important;
+}
+
+/* Arrows positioned at the center height of the product cards */
+#presentes {
+  position: relative !important;
+  overflow: visible !important;
+}
+#presentes .Home-module__bzKCIa__arrows,
+#professores .Home-module__bzKCIa__arrows {
+  position: absolute !important;
+  top: 280px !important;
+  left: -28px !important;
+  right: -28px !important;
+  transform: none !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  pointer-events: none !important;
+  width: auto !important;
+}
+#presentes .Home-module__bzKCIa__arrows button,
+#professores .Home-module__bzKCIa__arrows button {
+  pointer-events: all !important;
+}
+#professores {
+  position: relative !important;
+  overflow: visible !important;
+}
+
+/* Product badge — bigger and prominent above image */
+.Home-module__bzKCIa__productBadge {
+  font-size: 0.75rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.07em !important;
+  padding: 5px 12px !important;
+  border-radius: 20px !important;
+  background: #c0392b !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  top: 12px !important;
+  left: 12px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18) !important;
+  z-index: 10 !important;
+}
 .Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__categoryImage{
   background:transparent!important;
   border:0!important;
@@ -32,3 +189,58 @@
     width:118px!important;
   }
 }
+
+.Home-module__bzKCIa__productImage { background-color: transparent !important; }
+
+/* Steps icons */
+li.rg-step {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  gap: 8px !important;
+  overflow: visible !important;
+}
+.rg-step-icon {
+  width: 110px;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  overflow: visible;
+  display: block;
+  margin: 0 auto 8px auto;
+}
+.Home-module__bzKCIa__steps {
+  overflow: visible !important;
+  width: 100% !important;
+}
+.Home-module__bzKCIa__steps li {
+  overflow: visible !important;
+}
+.Home-module__bzKCIa__steps li > span {
+  text-align: center !important;
+}
+.Home-module__bzKCIa__steps li h3 {
+  text-align: center !important;
+}
+.Home-module__bzKCIa__steps li p {
+  text-align: center !important;
+}
+
+/* Center the "Como funciona" headline */
+.Home-module__bzKCIa__how {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 40px !important;
+}
+.Home-module__bzKCIa__howIntro {
+  text-align: center !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.Home-module__bzKCIa__howIntro h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem) !important;
+  margin-bottom: 0 !important;
+}
+
