@@ -618,3 +618,31 @@ li.rg-step {
     max-height: none !important;
   }
 }
+
+/* Mobile: grade 2 colunas com todas as linhas necessarias */
+@media (max-width: 700px) {
+  .Home-module__bzKCIa__productRail {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-auto-rows: auto !important;
+    grid-template-rows: unset !important;
+    overflow: visible !important;
+    max-height: unset !important;
+    height: auto !important;
+    flex-direction: unset !important;
+  }
+  /* Garantir que os pais nao cortam */
+  #presentes,
+  #professores {
+    overflow: visible !important;
+    height: auto !important;
+    max-height: unset !important;
+  }
+  [class*="railWrapper"],
+  [class*="Rail"],
+  .Home-module__bzKCIa__section {
+    overflow: visible !important;
+    max-height: unset !important;
+    height: auto !important;
+  }
+}
