@@ -2588,3 +2588,57 @@ body,
     max-width: 100% !important;
   }
 }
+
+/* ==========================================================
+   FIX DEFINITIVO: secao #empresas (corporate) mobile
+   O overflow:hidden no .corporate cortava o texto porque
+   o primeiro div nao tinha width:100% + box-sizing:border-box
+   ========================================================== */
+@media (max-width: 700px) {
+  .Home-module__bzKCIa__corporate {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .Home-module__bzKCIa__corporate > div:first-child {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 28px 22px !important;
+    overflow: hidden !important;
+    min-width: 0 !important;
+  }
+
+  .Home-module__bzKCIa__corporate h2 {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+    letter-spacing: -0.8px !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    hyphens: none !important;
+  }
+
+  .Home-module__bzKCIa__corporate p {
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100% !important;
+  }
+
+  .Home-module__bzKCIa__corporate h3 {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Remove o container de largura restrita para a corporate no mobile */
+  #empresas.Home-module__bzKCIa__corporate.Home-module__bzKCIa__container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
