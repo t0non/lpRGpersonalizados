@@ -2270,18 +2270,19 @@ li.rg-step {
   }
 
   .rg-word-hero__panel {
-    min-height: 178px !important;
+    min-height: 130px !important;
     border-radius: 28px !important;
-    gap: 12px !important;
+    gap: 10px !important;
   }
 
   .rg-word-hero__eyebrow {
-    font-size: 0.62rem !important;
+    font-size: 0.6rem !important;
     letter-spacing: 0.28em !important;
   }
 
   .rg-word-hero h2 {
-    font-size: clamp(2.6rem, 17vw, 4.4rem) !important;
+    font-size: clamp(1.8rem, 10vw, 3rem) !important;
+    line-height: 1 !important;
   }
 }
 
