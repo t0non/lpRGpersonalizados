@@ -9,7 +9,7 @@
 .Home-module__bzKCIa__price { display: none !important; }
 .Home-module__bzKCIa__salesSection { display: none !important; }
 
-/* FAQ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â layout melhorado */
+/* FAQ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â layout melhorado */
 .Home-module__bzKCIa__help {
   display: flex !important;
   flex-direction: column !important;
@@ -240,7 +240,7 @@
 }
 
 
-/* CTA button ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â menor e com espaÃƒÆ’Ã‚Â§amento */
+/* CTA button ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â menor e com espaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§amento */
 .Home-module__bzKCIa__productButton {
   display: inline-flex !important;
   width: auto !important;
@@ -415,7 +415,7 @@
   }
 }
 
-/* Product badge ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â bigger and prominent above image */
+/* Product badge ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â bigger and prominent above image */
 .Home-module__bzKCIa__productBadge {
   font-size: 0.75rem !important;
   font-weight: 800 !important;
@@ -723,7 +723,7 @@ li.rg-step {
    ============================================ */
 
 
-/* Mobile: 3 produtos visÃƒÆ’Ã‚Â­veis + botÃƒÆ’Ã‚Âµes alinhados */
+/* Mobile: 3 produtos visÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­veis + botÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âµes alinhados */
 
 
 /* Mobile v2: fix cards layout */
@@ -830,7 +830,7 @@ li.rg-step {
 /* ===== MOBILE (<= 700px) - CONSOLIDATED ===== */
 @media (max-width: 700px) {
 
-  /* Announcement bar Ã¢â‚¬â€ 1 linha centralizada */
+  /* Announcement bar ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 1 linha centralizada */
   .Home-module__bzKCIa__announcement {
     font-size: 0.6rem !important;
     padding: 6px 10px !important;
@@ -871,16 +871,25 @@ li.rg-step {
     height: auto !important;
   }
 
-  /* Product rail Ã¢â‚¬â€ grade 2 colunas */
-  .Home-module__bzKCIa__productRail {
+  /* Product rail — grade 2 colunas */
+  .Home-module__bzKCIa__productRail,
+  .Home-module__bzKCIa__rail.Home-module__bzKCIa__productRail {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
+    grid-auto-flow: row !important;
     grid-auto-rows: auto !important;
-    overflow: visible !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
     max-height: unset !important;
     height: auto !important;
     gap: 12px !important;
     scroll-snap-type: none !important;
+    flex-wrap: wrap !important;
+  }
+  .Home-module__bzKCIa__productRail > *,
+  .Home-module__bzKCIa__rail.Home-module__bzKCIa__productRail > * {
+    scroll-snap-align: none !important;
+    min-width: 0 !important;
   }
 
   /* Product cards */
@@ -940,7 +949,7 @@ li.rg-step {
   #presentes .Home-module__bzKCIa__arrows,
   #professores .Home-module__bzKCIa__arrows { display: none !important; }
 
-  /* Video Ã¢â‚¬â€ headline acima */
+  /* Video ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â headline acima */
   .Home-module__bzKCIa__unboxingSection {
     display: flex !important;
     flex-direction: column !important;
@@ -948,7 +957,7 @@ li.rg-step {
   .Home-module__bzKCIa__unboxingSection > div:last-child { order: -1 !important; }
   .Home-module__bzKCIa__unboxingSection > div:first-child { order: 1 !important; }
 
-  /* Steps Ã¢â‚¬â€ coluna unica, numero acima do icone */
+  /* Steps ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â coluna unica, numero acima do icone */
   ol.Home-module__bzKCIa__steps {
     display: flex !important;
     flex-direction: column !important;
