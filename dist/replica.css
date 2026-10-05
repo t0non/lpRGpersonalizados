@@ -1,4 +1,35 @@
 [hidden]{display:none!important}
+
+/* ================================================
+   FIX GLOBAL: overflow horizontal da pagina
+   Algum elemento esta sendo mais largo que o viewport,
+   causando scroll horizontal e fazendo textos serem
+   cortados pelo overflow:hidden dos containers.
+   ================================================ */
+html,
+body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+.Home-module__bzKCIa__home {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.Home-module__bzKCIa__home * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Excecoes: elementos que precisam de scroll horizontal */
+.Home-module__bzKCIa__home .Home-module__bzKCIa__rail,
+.Home-module__bzKCIa__home .Home-module__bzKCIa__categories {
+  max-width: unset !important;
+  overflow-x: auto !important;
+}
+
 .replica-mobile-nav{display:grid;gap:0;padding:12px 24px;background:var(--paper,#fff)}
 .replica-mobile-nav a{padding:12px 0;border-bottom:1px solid #ede2d3}
 #catalog-empty{padding:36px 0;text-align:center}
