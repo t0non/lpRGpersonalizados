@@ -244,3 +244,68 @@ li.rg-step {
   margin-bottom: 0 !important;
 }
 
+
+/* ============================================
+   MOBILE RESPONSIVENESS
+   ============================================ */
+@media (max-width: 700px) {
+
+  /* Announcement bar — single line */
+  .Home-module__bzKCIa__announcement span,
+  .Home-module__bzKCIa__header [class*='ticker'],
+  .Home-module__bzKCIa__header [class*='marquee'],
+  .Home-module__bzKCIa__header [class*='announcement'] {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    font-size: 0.6rem !important;
+    padding: 5px 8px !important;
+    height: auto !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Video section — headline above video */
+  .Home-module__bzKCIa__unboxingSection {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .Home-module__bzKCIa__unboxingSection > div:last-child { order: -1 !important; }
+  .Home-module__bzKCIa__unboxingSection > div:first-child { order: 1 !important; }
+
+  /* General padding */
+  .Home-module__bzKCIa__container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* Section headings */
+  .Home-module__bzKCIa__sectionHeading h2,
+  .Home-module__bzKCIa__howIntro h2,
+  .Home-module__bzKCIa__help h2 {
+    font-size: 1.5rem !important;
+    line-height: 1.25 !important;
+  }
+
+  /* Steps — stack vertically */
+  .Home-module__bzKCIa__steps {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 32px !important;
+  }
+  li.rg-step { width: 100% !important; max-width: 300px !important; }
+  .rg-step-icon { width: 80px !important; }
+
+  /* FAQ full width on mobile */
+  .Home-module__bzKCIa__help > div { max-width: 100% !important; }
+  .Home-module__bzKCIa__help summary { font-size: 0.85rem !important; padding: 14px 16px !important; }
+  .Home-module__bzKCIa__help details p { padding: 0 16px 16px !important; padding-top: 12px !important; font-size: 0.82rem !important; }
+
+  /* CTA button full width on mobile */
+  .Home-module__bzKCIa__productButton { width: 100% !important; justify-content: center !important; }
+
+  /* Corporate section */
+  .Home-module__bzKCIa__corporate { flex-direction: column !important; padding: 32px 16px !important; }
+  .Home-module__bzKCIa__corporate h2 { font-size: 1.5rem !important; }
+
+  /* Final CTA */
+  .Home-module__bzKCIa__finalCTA h2 { font-size: 1.4rem !important; }
+}
