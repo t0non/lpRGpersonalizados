@@ -1910,3 +1910,22 @@ li.rg-step {
     scroll-snap-align: start !important;
   }
 }
+
+  /* AJUSTE DAS TAGS (BADGES) NAS IMAGENS */
+  .Home-module__bzKCIa__productBadge {
+    background: #c63328 !important; /* Vermelho escuro/vibrante */
+    color: white !important;
+    font-weight: 800 !important;
+    font-size: 0.55rem !important;
+    padding: 6px 10px !important;
+    border-radius: 20px !important; /* Formato de pílula */
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    top: 10px !important;
+    left: 10px !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15) !important;
+    z-index: 10 !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    line-height: 1 !important;
+    display: inline-block !important;
+  }
