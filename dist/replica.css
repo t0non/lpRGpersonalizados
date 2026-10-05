@@ -448,3 +448,37 @@ li.rg-step {
     order: 2 !important;
   }
 }
+
+/* Mobile: forcar passo em coluna unica - numero acima do icone */
+@media (max-width: 700px) {
+  ol.Home-module__bzKCIa__steps {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 40px !important;
+  }
+  ol.Home-module__bzKCIa__steps > li,
+  ol.Home-module__bzKCIa__steps > li.rg-step {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 280px !important;
+    gap: 6px !important;
+    grid-template-columns: none !important;
+  }
+  ol.Home-module__bzKCIa__steps > li > span,
+  ol.Home-module__bzKCIa__steps > li.rg-step > span {
+    order: -1 !important;
+    display: block !important;
+    width: auto !important;
+    position: static !important;
+  }
+  ol.Home-module__bzKCIa__steps > li > img.rg-step-icon {
+    order: 0 !important;
+    position: static !important;
+  }
+  ol.Home-module__bzKCIa__steps > li > h3 { order: 1 !important; }
+  ol.Home-module__bzKCIa__steps > li > p  { order: 2 !important; }
+}
