@@ -546,3 +546,30 @@ li.rg-step {
     height: 12px !important;
   }
 }
+
+/* Mobile: produto rail em grade 2 colunas com 2 linhas */
+@media (max-width: 700px) {
+  .Home-module__bzKCIa__productRail {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: auto auto !important;
+    overflow: visible !important;
+    gap: 12px !important;
+    max-height: none !important;
+    scroll-snap-type: none !important;
+  }
+  .Home-module__bzKCIa__productCard {
+    min-width: unset !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .Home-module__bzKCIa__productImage {
+    height: 160px !important;
+    padding: 0 !important;
+  }
+  /* Esconder setas no mobile - nao precisa mais de carrossel */
+  #presentes .Home-module__bzKCIa__arrows,
+  #professores .Home-module__bzKCIa__arrows {
+    display: none !important;
+  }
+}
