@@ -600,3 +600,21 @@ li.rg-step {
     flex-shrink: 1 !important;
   }
 }
+
+/* Mobile: mostrar todos os produtos - sem limite de linhas */
+@media (max-width: 700px) {
+  .Home-module__bzKCIa__productRail {
+    grid-template-rows: unset !important;
+    grid-auto-rows: auto !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  /* Remover qualquer clip/hide do rail pai */
+  #presentes > div,
+  #professores > div,
+  .Home-module__bzKCIa__section > div {
+    overflow: visible !important;
+    max-height: none !important;
+  }
+}
