@@ -503,3 +503,14 @@ li.rg-step {
   text-align: center !important;
   justify-content: center !important;
 }
+
+/* Announcement: forcar centralizacao real */
+.Home-module__bzKCIa__announcement {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  padding: 6px 16px !important;
+}
