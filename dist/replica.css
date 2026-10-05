@@ -9,7 +9,7 @@
 .Home-module__bzKCIa__price { display: none !important; }
 .Home-module__bzKCIa__salesSection { display: none !important; }
 
-/* FAQ â€” layout melhorado */
+/* FAQ Ã¢â‚¬â€ layout melhorado */
 .Home-module__bzKCIa__help {
   display: flex !important;
   flex-direction: column !important;
@@ -90,7 +90,7 @@
 }
 
 
-/* CTA button â€” menor e com espaÃ§amento */
+/* CTA button Ã¢â‚¬â€ menor e com espaÃƒÂ§amento */
 .Home-module__bzKCIa__productButton {
   display: inline-flex !important;
   width: auto !important;
@@ -145,7 +145,7 @@
   overflow: visible !important;
 }
 
-/* Product badge â€” bigger and prominent above image */
+/* Product badge Ã¢â‚¬â€ bigger and prominent above image */
 .Home-module__bzKCIa__productBadge {
   font-size: 0.75rem !important;
   font-weight: 800 !important;
@@ -243,7 +243,7 @@ li.rg-step {
    ============================================ */
 
 
-/* Mobile: 3 produtos visÃ­veis + botÃµes alinhados */
+/* Mobile: 3 produtos visÃƒÂ­veis + botÃƒÂµes alinhados */
 
 
 /* Mobile v2: fix cards layout */
@@ -305,7 +305,7 @@ li.rg-step {
 /* ===== MOBILE (<= 700px) - CONSOLIDATED ===== */
 @media (max-width: 700px) {
 
-  /* Announcement bar — 1 linha centralizada */
+  /* Announcement bar â€” 1 linha centralizada */
   .Home-module__bzKCIa__announcement {
     font-size: 0.6rem !important;
     padding: 6px 10px !important;
@@ -346,7 +346,7 @@ li.rg-step {
     height: auto !important;
   }
 
-  /* Product rail — grade 2 colunas */
+  /* Product rail â€” grade 2 colunas */
   .Home-module__bzKCIa__productRail {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
@@ -415,7 +415,7 @@ li.rg-step {
   #presentes .Home-module__bzKCIa__arrows,
   #professores .Home-module__bzKCIa__arrows { display: none !important; }
 
-  /* Video — headline acima */
+  /* Video â€” headline acima */
   .Home-module__bzKCIa__unboxingSection {
     display: flex !important;
     flex-direction: column !important;
@@ -423,7 +423,7 @@ li.rg-step {
   .Home-module__bzKCIa__unboxingSection > div:last-child { order: -1 !important; }
   .Home-module__bzKCIa__unboxingSection > div:first-child { order: 1 !important; }
 
-  /* Steps — coluna unica, numero acima do icone */
+  /* Steps â€” coluna unica, numero acima do icone */
   ol.Home-module__bzKCIa__steps {
     display: flex !important;
     flex-direction: column !important;
