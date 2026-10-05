@@ -514,3 +514,21 @@ li.rg-step {
   white-space: nowrap !important;
   padding: 6px 16px !important;
 }
+
+/* Mobile: botao verde menor - override final */
+@media (max-width: 700px) {
+  .Home-module__bzKCIa__productButton {
+    font-size: 0.5rem !important;
+    padding: 4px 6px !important;
+    border-radius: 4px !important;
+    gap: 2px !important;
+    line-height: 1.2 !important;
+    min-height: unset !important;
+    height: auto !important;
+  }
+  .Home-module__bzKCIa__productButton svg,
+  .Home-module__bzKCIa__productButton .WhatsAppIcon-module__uYBT-q__icon {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
