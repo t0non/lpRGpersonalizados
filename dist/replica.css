@@ -497,3 +497,9 @@ li.rg-step {
     letter-spacing: 0.01em !important;
   }
 }
+
+/* Announcement bar centralizado */
+.Home-module__bzKCIa__announcement {
+  text-align: center !important;
+  justify-content: center !important;
+}
