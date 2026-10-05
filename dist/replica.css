@@ -9,7 +9,7 @@
 .Home-module__bzKCIa__price { display: none !important; }
 .Home-module__bzKCIa__salesSection { display: none !important; }
 
-/* FAQ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â layout melhorado */
+/* FAQ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â layout melhorado */
 .Home-module__bzKCIa__help {
   display: flex !important;
   flex-direction: column !important;
@@ -31,34 +31,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__help h2 {
@@ -82,34 +54,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__help > div {
   width: 100% !important;
@@ -131,34 +75,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__help details {
@@ -183,34 +99,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__help details:hover {
   box-shadow: 0 4px 16px rgba(0,0,0,0.07) !important;
@@ -228,34 +116,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__help details[open] {
@@ -275,34 +135,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__help summary {
@@ -330,34 +162,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__help summary::-webkit-details-marker { display: none !important; }
@@ -389,34 +193,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__help details[open] summary span {
   background: #c0845a !important;
@@ -436,34 +212,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__help details p {
@@ -489,38 +237,10 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 
 
-/* CTA button ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â menor e com espaÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§amento */
+/* CTA button ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â menor e com espaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§amento */
 .Home-module__bzKCIa__productButton {
   display: inline-flex !important;
   width: auto !important;
@@ -543,34 +263,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 
@@ -598,34 +290,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__sectionHeading > div {
   text-align: center !important;
@@ -643,34 +307,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__sectionHeading h2,
@@ -690,34 +326,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 
@@ -739,34 +347,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 #presentes .Home-module__bzKCIa__arrows,
@@ -795,34 +375,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 #presentes .Home-module__bzKCIa__arrows button,
 #professores .Home-module__bzKCIa__arrows button {
@@ -841,34 +393,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 #professores {
@@ -889,37 +413,9 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 
-/* Product badge ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â bigger and prominent above image */
+/* Product badge ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â bigger and prominent above image */
 .Home-module__bzKCIa__productBadge {
   font-size: 0.75rem !important;
   font-weight: 800 !important;
@@ -948,34 +444,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__categoryImage{
   background:transparent!important;
@@ -1001,34 +469,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__categoryImage img{
   position:static!important;
@@ -1052,34 +492,6 @@
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__categoriesSection .Home-module__bzKCIa__category{
   gap:10px;
@@ -1097,34 +509,6 @@
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 
@@ -1154,34 +538,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .rg-step-icon {
   width: 110px;
@@ -1206,34 +562,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__steps {
   overflow: visible !important;
@@ -1253,34 +581,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__steps li {
   overflow: visible !important;
@@ -1298,34 +598,6 @@ li.rg-step {
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 .Home-module__bzKCIa__steps li > span {
@@ -1345,34 +617,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__steps li h3 {
   text-align: center !important;
@@ -1391,34 +635,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__steps li p {
   text-align: center !important;
@@ -1436,34 +652,6 @@ li.rg-step {
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 
@@ -1488,34 +676,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__howIntro {
   text-align: center !important;
@@ -1536,34 +696,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 .Home-module__bzKCIa__howIntro h2 {
   font-size: clamp(1.6rem, 3vw, 2.4rem) !important;
@@ -1583,34 +715,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 
 
@@ -1619,7 +723,7 @@ li.rg-step {
    ============================================ */
 
 
-/* Mobile: 3 produtos visÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­veis + botÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âµes alinhados */
+/* Mobile: 3 produtos visÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­veis + botÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âµes alinhados */
 
 
 /* Mobile v2: fix cards layout */
@@ -1655,34 +759,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 
 
@@ -1704,34 +780,6 @@ li.rg-step {
   .Home-module__bzKCIa__category {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
 
@@ -1759,34 +807,6 @@ li.rg-step {
     flex: 0 0 85px !important;
     scroll-snap-align: start !important;
   }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
-  #presentes-rail,
-  #professores-rail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    white-space: normal !important;
-  }
-  #presentes-rail > *,
-  #professores-rail > * {
-    display: flex !important;
-    width: 100% !important;
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-  /* Wrapper do carrossel precisa estar visível */
-  .Home-module__bzKCIa__railWrapper {
-    overflow: visible !important;
-    height: auto !important;
-  }
 }
 
 /* Mobile: botao verde menor - override final */
@@ -1810,7 +830,7 @@ li.rg-step {
 /* ===== MOBILE (<= 700px) - CONSOLIDATED ===== */
 @media (max-width: 700px) {
 
-  /* Announcement bar ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â 1 linha centralizada */
+  /* Announcement bar ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 1 linha centralizada */
   .Home-module__bzKCIa__announcement {
     font-size: 0.6rem !important;
     padding: 6px 10px !important;
@@ -1851,139 +871,7 @@ li.rg-step {
     height: auto !important;
   }
 
-  /* Product rail â€” grade 2 colunas */
-  .Home-module__bzKCIa__productRail,
-  .Home-module__bzKCIa__rail.Home-module__bzKCIa__productRail {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    grid-auto-flow: row !important;
-    grid-auto-rows: auto !important;
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-    max-height: unset !important;
-    height: auto !important;
-    gap: 12px !important;
-    scroll-snap-type: none !important;
-    flex-wrap: wrap !important;
-  }
-  .Home-module__bzKCIa__productRail > *,
-  .Home-module__bzKCIa__rail.Home-module__bzKCIa__productRail > * {
-    scroll-snap-align: none !important;
-    min-width: 0 !important;
-  }
-
-  /* Product cards */
-  .Home-module__bzKCIa__productCard {
-    min-width: unset !important;
-    max-width: 100% !important;
-    width: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-  /* Product image */
-  .Home-module__bzKCIa__productImage {
-    position: relative !important;
-    width: 100% !important;
-    height: 140px !important;
-    padding: 0 !important;
-  }
-  .Home-module__bzKCIa__productImage img {
-    position: absolute !important;
-    inset: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain !important;
-  }
-
-  /* Product info */
-  .Home-module__bzKCIa__productInfo {
-    display: flex !important;
-    flex-direction: column !important;
-    flex: 1 !important;
-    padding: 6px 0 0 !important;
-    gap: 3px !important;
-  }
-  .Home-module__bzKCIa__productKicker { font-size: 0.5rem !important; }
-  .Home-module__bzKCIa__productInfo h3 { font-size: 0.75rem !important; line-height: 1.2 !important; margin: 0 !important; }
-  .Home-module__bzKCIa__productInfo h3 a { font-size: inherit !important; }
-  .Home-module__bzKCIa__productInfo p { font-size: 0.65rem !important; line-height: 1.3 !important; margin: 0 !important; flex: 1 !important; }
-
-  /* CTA button */
-  .Home-module__bzKCIa__productButton {
-    margin-top: auto !important;
-    width: 100% !important;
-    justify-content: center !important;
-    font-size: 0.6rem !important;
-    padding: 6px 8px !important;
-    border-radius: 5px !important;
-    gap: 3px !important;
-  }
-  .Home-module__bzKCIa__productButton svg,
-  .Home-module__bzKCIa__productButton .WhatsAppIcon-module__uYBT-q__icon {
-    width: 12px !important;
-    height: 12px !important;
-  }
-
-  /* Esconder setas no mobile */
-  #presentes .Home-module__bzKCIa__arrows,
-  #professores .Home-module__bzKCIa__arrows { display: none !important; }
-
-  /* Video ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â headline acima */
-  .Home-module__bzKCIa__unboxingSection {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-  .Home-module__bzKCIa__unboxingSection > div:last-child { order: -1 !important; }
-  .Home-module__bzKCIa__unboxingSection > div:first-child { order: 1 !important; }
-
-  /* Steps ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â coluna unica, numero acima do icone */
-  ol.Home-module__bzKCIa__steps {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 40px !important;
-  }
-  ol.Home-module__bzKCIa__steps > li {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    width: 100% !important;
-    max-width: 280px !important;
-    gap: 6px !important;
-  }
-  ol.Home-module__bzKCIa__steps > li > span { order: -1 !important; }
-  ol.Home-module__bzKCIa__steps > li > img.rg-step-icon { order: 0 !important; width: 80px !important; }
-  ol.Home-module__bzKCIa__steps > li > h3 { order: 1 !important; }
-  ol.Home-module__bzKCIa__steps > li > p  { order: 2 !important; }
-
-  /* FAQ */
-  .Home-module__bzKCIa__help > div { max-width: 100% !important; }
-  .Home-module__bzKCIa__help summary { font-size: 0.85rem !important; padding: 14px 16px !important; }
-  .Home-module__bzKCIa__help details p { padding: 0 16px 16px !important; padding-top: 12px !important; font-size: 0.82rem !important; }
-
-  /* Corporate */
-  .Home-module__bzKCIa__corporate { flex-direction: column !important; padding: 32px 16px !important; }
-  .Home-module__bzKCIa__corporate h2 { font-size: 1.5rem !important; }
-  .Home-module__bzKCIa__finalCTA h2 { font-size: 1.4rem !important; }
-
-  /* Fix Category Rail Scroll */
-  .Home-module__bzKCIa__categories {
-    display: flex !important;
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
-    scroll-snap-type: x mandatory !important;
-    -webkit-overflow-scrolling: touch !important;
-    flex-wrap: nowrap !important;
-    padding-bottom: 12px !important;
-  }
-  .Home-module__bzKCIa__category {
-    flex: 0 0 85px !important;
-    scroll-snap-align: start !important;
-  }
-
-  /* FORÇAR GRID DE QUALQUER JEITO NOS PRODUTOS */
+    /* Product rail — grade 2 colunas */
   #presentes-rail,
   #professores-rail {
     display: grid !important;
