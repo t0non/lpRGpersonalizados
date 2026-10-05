@@ -1929,3 +1929,18 @@ li.rg-step {
     line-height: 1 !important;
     display: inline-block !important;
   }
+
+  /* Inverter a ordem do video e texto no mobile */
+  @media (max-width: 700px) {
+    .Home-module__bzKCIa__unboxingSection {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .Home-module__bzKCIa__unboxingSection > .Home-module__bzKCIa__unboxingMedia {
+      order: 2 !important;
+    }
+    .Home-module__bzKCIa__unboxingSection > .Home-module__bzKCIa__unboxingCopy {
+      order: 1 !important;
+      margin-bottom: 24px !important;
+    }
+  }
