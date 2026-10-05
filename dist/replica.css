@@ -417,3 +417,18 @@ li.rg-step {
     gap: 8px !important;
   }
 }
+
+/* Mobile: botao CTA menor */
+@media (max-width: 700px) {
+  .Home-module__bzKCIa__productButton {
+    font-size: 0.55rem !important;
+    padding: 5px 4px !important;
+    gap: 3px !important;
+    border-radius: 5px !important;
+  }
+  .Home-module__bzKCIa__productButton .WhatsAppIcon-module__uYBT-q__icon,
+  .Home-module__bzKCIa__productButton span[style*='width:16px'] {
+    width: 11px !important;
+    height: 11px !important;
+  }
+}
